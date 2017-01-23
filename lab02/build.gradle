@@ -12,3 +12,13 @@ task(run, dependsOn: 'classes', type: JavaExec) {
     main = 'csci2020u.lab02.SimpleTest'
     classpath = sourceSets.main.runtimeClasspath
 }
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.apache.commons', 
+            name: 'commons-csv', 
+            version: '1.4'
+}
