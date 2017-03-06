@@ -55,8 +55,8 @@ public class Main extends Application {
                         new PieChart.Data("26-35", 1021),
                         new PieChart.Data("36-45", 2453),
                         new PieChart.Data("46-55", 3173),
-                        new PieChart.Data("56-65", 1868));
-                        new PieChart.Data("65+", 2247);
+                        new PieChart.Data("56-65", 1868),
+                        new PieChart.Data("65+", 2247));
 
         final PieChart pc = new PieChart(pieChartData);
         pc.setTitle("Purchases by age groups");
